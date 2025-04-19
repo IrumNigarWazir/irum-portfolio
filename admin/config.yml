@@ -1,10 +1,13 @@
 backend:
   name: github
-  repo: IrumNigarWazir/irum-portfolio
+  repo: IrumNigarWazir/irum-portfolio  # your GitHub repo
   branch: main
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
+
+site_url: https://irum-portfolio.netlify.app
+logo_url: /images/profile.png
 
 collections:
   - name: "blog"
@@ -26,4 +29,3 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-
