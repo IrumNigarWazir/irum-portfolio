@@ -10,6 +10,15 @@ site_url: https://irum-portfolio.netlify.app
 logo_url: /images/profile.png
 
 collections:
+
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    create: true
+    slug: "{{slug}}"
+    access: 
+      roles: ["admin"]  # Only admin can edit blogs
+
   - name: "blog"
     label: "Blog"
     folder: "blog"
